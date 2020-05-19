@@ -44,4 +44,4 @@ services:
       dockerfile: Dockerfile_Ruby
     depends_on:
       - bulletin
-    command: ["./wait-for-grid.sh", "ruby", "/tmp/bulletin_board.rb"]
+    command: ["./wait-for-grid.sh", "ruby", "bulletin_board.rb"]
